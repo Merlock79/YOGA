@@ -1,0 +1,24 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+/* button {
+        display: flex;
+} */
+ .container {
+    width: 1600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+ }
