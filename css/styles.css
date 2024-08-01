@@ -21,6 +21,9 @@ list-style: none;
 /* button {
         display: flex;
 } */
+ h1,h2,h3,h4,h5,h6,p {
+
+ }
  .container {
     width: 1000px;
     padding-left: 10px;
@@ -45,24 +48,56 @@ list-style: none;
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 25px;
+    column-gap: 30px;
+    row-gap: 30px;
     margin-top: 50px;
   }
  .gallery-item {
 display: flex;
-height: 100%;
-    flex-basis: calc((100% - 15px) / 2);
+height: 200px;
+    flex-basis: calc((100% - 30px) / 2);
     box-shadow: 2px 2px 6px 6px red;
+    background-color: blanchedalmond;
     border-radius: 5px;
+    overflow: hidden;
+    
  }
  .gallery-image {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   background-image: url(../images/health.jpg);
    width: 50%;
  }
 .gallery-content {
    width: 50%;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.gallery-item-title {
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+.gallery-text {
+   margin-bottom: 10px;
+}
+.image1 {
+   background-image: linear-gradient(to top,#735184a8, rgba(139, 230, 139, 0.178)), url(../images/weight.jpg);
+}
+.image2 {
+   background-image: linear-gradient(to top,#735184a8, rgba(139, 230, 139, 0.178)), url(../images/children.jpg);
+}
+.image3 {
+   background-image: linear-gradient(to top,#735184a8, rgba(139, 230, 139, 0.178)), url(../images/health.jpg);
+}
+.image4 {
+   background-image: linear-gradient(to top,#735184a8, rgba(139, 230, 139, 0.178)), url(../images/elderly.jpg);
+}
+body {
+   background-image: linear-gradient(to top,#735184a8, rgba(139, 230, 139, 0.178)), url(../images/0eab79f24fe1570e091db2d527495450_t.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-size: 100vw 100vh;
+/*    background-position: center; */
 }
